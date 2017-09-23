@@ -8,6 +8,8 @@ all: setup
 
 setup:
 	sudo mkdir -p $(HUL_INSTALL_DIR)
+	sudo mkdir -p $(HUL_INSTALL_DIR)/$(BARCODE_DATA)
+	sudo mkdir -p $(HUL_INSTALL_DIR)/$(IMAGE_DATA)
 	sudo touch $(HUL_INSTALL_DIR)/$(ONLINE_THRESHOLD)
 	echo "0" > $(HUL_INSTALL_DIR)/$(ONLINE_THRESHOLD) 2>&1
 	sudo touch $(HUL_INSTALL_DIR)/$(OFFLINE_THRESHOLD)

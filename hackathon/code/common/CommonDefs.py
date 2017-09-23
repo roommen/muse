@@ -15,6 +15,9 @@ HUL_INSTALL_DIR = "/usr/local/hul"
 ONLINE_THRESHOLD = "OnlineThreshold"
 OFFLINE_THRESHOLD = "OfflineThreshold"
 IS_OFFLINE = "IsOffline"
+BARCODE_DATA = "BarcodeData"
+BARCODE_DATAFILE = "Store15.09_21_2017_12PM.csv"
+IMAGE_DATA = "ImageData"
 
 # DB endpoint & credentials
 cnx_str = {'host': 'museunilever.clpayxv3izmg.ap-south-1.rds.amazonaws.com',
