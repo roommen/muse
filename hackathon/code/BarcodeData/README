@@ -1,0 +1,1 @@
+The sample barcode data from Store 15 which will be read by DataUpload.py for insertion in a serverless manner (invoked via the API endpoint)

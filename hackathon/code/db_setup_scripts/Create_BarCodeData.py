@@ -12,7 +12,8 @@ def create_barcodedata():
                        'Record_ID DOUBLE NOT NULL AUTO_INCREMENT PRIMARY KEY,'
                        'Store_ID DOUBLE NOT NULL,'
                        'Barcode VARCHAR(50) NOT NULL,'
-                       'Timestamp VARCHAR(30) NOT NULL)'
+                       'Date_Stamp VARCHAR(20) NOT NULL,'
+                       'Time_Stamp VARCHAR(20) NOT NULL)'
                        ';')
         print("Table Bar_Code_Data created successfully.")
     except mysql.connector.Error as err:

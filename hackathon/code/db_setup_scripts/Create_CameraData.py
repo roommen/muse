@@ -9,17 +9,11 @@ def create_cameradata():
                                              password=cnx_str['password'], database=cnx_str['db'])
         cursor = connection.cursor()
         cursor.execute('CREATE TABLE CameraData('
-                       'Record_ID DOUBLE NOT NULL AUTO_INCREMENT PRIMARY KEY,'
+                       'Pic_ID DOUBLE NOT NULL PRIMARY KEY,'
                        'Store_ID DOUBLE NOT NULL,'
-                       'Timestamp VARCHAR(30) NOT NULL,'
-                       'Shelf_Number VARCHAR(10) NOT NULL,'
-                       'Shelf_Desc VARCHAR(30) NOT NULL,'
-                       'Average_Quantity DOUBLE NOT NULL,'
-                       'Shelf_Occupancy_Perc DOUBLE NOT NULL,'
-                       'Store_Person_Activity DOUBLE NOT NULL,'
-                       'Customer_Activity DOUBLE NOT NULL,'
-                       'Footfall_Activity DOUBLE NOT NULL,'
-                       'Counter_Activity DOUBLE NOT NULL)'
+                       'Person_Count DOUBLE NOT NULL,'
+                       'Object_Category VARCHAR(20) NOT NULL,'
+                       'Shelf_Fill_Rate DOUBLE NOT NULL)'
                        ';')
         print("Table Camera_Data created successfully.")
     except mysql.connector.Error as err:
