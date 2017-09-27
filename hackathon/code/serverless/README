@@ -1,3 +1,7 @@
 This is the AWS Lamba serverless implementation of the Barcode Data upload. It contains the "uploadBarCodeImageData.py" which will be triggered by an API Gateway being called from "DataUpload.py".
 
 The "uploadBarcodeImageData.zip" file is the complete package along with all the package dependencies which is to be uploaded into AWS Lamba for creating the required function
+
+Download trianed weights from the link below
+https://drive.google.com/open?id=0ByYsl9YM0Z26aUNEeWVQa3lyN2c
+
