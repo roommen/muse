@@ -1,0 +1,14 @@
+## SPOTFIRE REPORT FOR UNILEVER HACKATHON
+
+Tool used: TIBCO Spotfire 7.8 
+
+### How to access the report?
+
+* Use the below URL to open the report in any browser:
+```
+https://spotfire.cloud.tibco.com/spotfire/wp/ViewAnalysis.aspx?file=/users/PriyankaKarad/Public/Unilever%20Hackathon
+```
+
+OR
+
+* Users with Spotfire 7.8 installed can open the dxp file being uploaded
