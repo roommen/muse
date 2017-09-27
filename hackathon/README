@@ -1,0 +1,6 @@
+Here's the brief overview of the folder/subsections:
+
+1. Code: Contains the heart of the solution with the implementation
+2. dashboards: The analytics dashboard and visualization on the data uploaded
+3. docs: The architecture diagrams, schema and related solution overview
+4. sample_data_set: csv files thats used for processing representing the sample data set

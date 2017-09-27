@@ -1,9 +1,8 @@
-There are two sections in this folder:
-Section I:
-**********
+Overview of files contained:
+Initial setup and Make files, Cron job setup, DB setup scripts, Barcode processing, Image data processing, serverless (AWS Lambda) implementations, i
+
 1. Run the make file to setup the required pre-requistes on a RaPi system
 2. Run the setupCron.sh to setup the required cron jobs which will invoke the checks for network and data upload
-
-Section II:
-***********
-1. The cron jobs will essentially invoke respective .py files for performing network and data upload tasks
+3. The cron jobs will essentially invoke respective .py files of the same name for performing network and data upload tasks
+4. Run each files under db_setup_scripts/ to bring up the DB schema on a MySQL server
+5. The zip file (as a Lambda processable function) under the serverless/ file processes the data on upload from a barcode scanner.
