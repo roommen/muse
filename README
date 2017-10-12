@@ -9,3 +9,5 @@ Contains the files and brief idea overview that was submitted during the first p
 hackathon:
 ***********
 Deliverables for the hackathon phase that includes the architecture overview, code, analytics overview/dashboard and the final presentation
+
+Fill_rate.py - Determines the occupancy of the shelf on any image captured through raspberry pi.
